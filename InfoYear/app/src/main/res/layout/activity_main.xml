@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:id="@+id/inputYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/leap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chinese year"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:id="@+id/animal"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/default1"/>
+        </LinearLayout>
+</LinearLayout>
